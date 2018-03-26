@@ -10,7 +10,7 @@ var selfTag = document.currentScript;
         targetElem.setAttribute('transform', 'rotate(' + to + ' ' + centreX + ' ' + centreY + ')');
     };
     
-    var speed = 4;
+    var speed = 1;
     var endTime = (12 * 60 * 60);
     
     var clockFace = null;
