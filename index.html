@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SVG Animator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        <link href='style.css' rel='stylesheet'/>
+    </head>
+    <body>
+        <div class='main'>
+            <div class='title'>
+                <h1>SVG Animator</h1>
+            </div>
+            <div class='animation'>
+                <!--<div class='image' data-url='video_final/video_final.svg'></div>-->
+                <div class='image' data-url='watch/watch.svg'></div>
+            </div>
+            <div class='controls'>
+                <div class='section'>
+                    <button id='prev-btn'>Prev</button><button id='play-btn'>Play</button><button id='stop-btn'>Stop</button><button id='next-btn'>Next</button>
+                </div>
+                <div class='section'>
+                    <input id='time-control' type="range" min='0' value='0'/>
+                </div>
+                <div class='section'>
+                    <input id='time-control-text' type='number' readonly/>
+                </div>
+                <div class='section'>
+                    <button id='encode-btn'>Encode</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="whammy.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
